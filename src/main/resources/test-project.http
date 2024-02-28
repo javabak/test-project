@@ -1,0 +1,33 @@
+### Returns added client
+# @no-redirect
+POST http://localhost:8080/api/v1/addClient
+Accept: application/json
+
+
+### Returns all clients
+# @no-redirect
+GET http://localhost:8080/api/v1/getAllClients
+Accept: application/json
+
+
+### Returns client by id
+# @no-redirect
+GET http://localhost:8080/api/v1/getClientById/{clientId}
+Accept: application/json
+
+
+### Returns added contact
+# @no-redirect
+POST http://localhost:8080/api/v1/addContact
+Accept: application/json
+
+
+### Returns all contacts by client and type
+# @no-redirect
+GET http://localhost:8080/api/v1/getAllContactsByClientAndType
+Accept: application/json
+
+### Returns all contacts by client
+# @no-redirect
+GET http://localhost:8080/api/v1/getAllContactsByClient
+Accept: application/json

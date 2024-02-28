@@ -1,6 +1,5 @@
-package com.example.testproject.exception;
+package com.example.testproject.exception.handle;
 
-package com.laborotoryproject.weather.parser.exception.exceptions_advices;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
